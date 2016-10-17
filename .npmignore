@@ -9,8 +9,12 @@ logs
 node_modules
 
 # Built Docs
-Docs
+docs
+
+# Config
 config
+
+# Source Code
 src
 
 # Coverage Reports

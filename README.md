@@ -8,16 +8,13 @@ Stateless React component versions of [devices.css](https://github.com/marvelapp
 ## Installation
 
 ```bash
-$ git clone git@github.com:altayaydemir/react-mobile-devices.git
-
-$ cd react-mobile-devices
-
-$ npm install 
+$ npm install react-mobile-devices --save
 
 ```
 
 ## Usage
 ```jsx
+import 'react-mobile-devices/dist/style.css';
 import { Nexus } from 'react-mobile-devices';
 
 const NexusWrapper = props => (
@@ -33,6 +30,12 @@ const NexusWrapper = props => (
 ### Development Flow
 
 ```bash
+$ git clone git@github.com:altayaydemir/react-mobile-devices.git
+ 
+$ cd react-mobile-devices
+ 
+$ npm install 
+
 # run this while developing your component
 $ npm run start
 
