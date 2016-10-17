@@ -1,0 +1,36 @@
+:global {
+  .MarvelDevice {
+    display: inline-block;
+    position: relative;
+    box-sizing: content-box!important;
+  }
+
+  .MarvelDevice_Screen {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    z-index: 2;
+    text-align: center;
+    display: block;
+    border-radius: 1px;
+    box-shadow: 0 0 0 3px #111;
+    background: white;
+  }
+
+  .MarvelDevice_TopBar,
+  .MarvelDevice_BottomBar {
+    height: 3px;
+    background: black;
+    width: 100%;
+    display: block;
+  }
+
+  .MarvelDevice_Middlebar {
+    width: 3px;
+    height: 4px;
+    top: 0px;
+    left: 90px;
+    background: black;
+    position: absolute;
+  }
+}

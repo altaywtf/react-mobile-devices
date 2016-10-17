@@ -1,0 +1,65 @@
+.Device {
+  padding: 50px 15px 50px 15px;
+  width: 320px;
+  height: 568px;
+  background: #1e1e1e;
+  border-radius: 20px;
+
+  &:before {
+    border-radius: 600px / 50px;
+    background: inherit;
+    content: '';
+    top: 0;
+    position: absolute;
+    height: 103.1%;
+    width: calc(100% - 26px);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+.Sleep {
+  width: 3px;
+  position: absolute;
+  left: -3px;
+  top: 110px;
+  height: 100px;
+  background: inherit;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.Volume {
+  width: 3px;
+  position: absolute;
+  right: -3px;
+  top: 70px;
+  height: 45px;
+  background: inherit;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.Camera {
+  background: #3c3d3d;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  z-index: 3;
+  margin-left: -5px;
+  border-radius: 100%;
+
+  &:before {
+    background: #3c3d3d;
+    width: 6px;
+    height: 6px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: -100px;
+    z-index: 3;
+    border-radius: 100%;
+  }
+}
