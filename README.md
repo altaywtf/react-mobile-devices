@@ -25,43 +25,6 @@ const NexusWrapper = props => (
 
 ```
 
-## Development
+## Contribution
 
-### Development Flow
-
-```bash
-$ git clone git@github.com:altayaydemir/react-mobile-devices.git
- 
-$ cd react-mobile-devices
- 
-$ npm install 
-
-# run this while developing your component
-$ npm run start
-
-# run documentation project (separately from first one)
-$ npm run start:docs
-```
-
-### Production Build
-
-```bash
-# build the library
-$ npm run build:lib
-
-# build the docs
-$ npm run build:docs
-
-# build'em all!
-$ npm run build
-```
-
-### Testing
-
-```bash
-# run tests in watch mode
-$ npm run test:watch
-
-# run tests and generate code coverage
-$ npm run test
-```
+This project has initialized from [react-component-starter](https://github.com/altayaydemir/react-component-starter), which contains detailed documentation about installation, development and build flow of the package.
