@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-devices",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Pure CSS mobile devices as reusable React Components",
   "main": "./dist/index.js",
   "scripts": {
@@ -26,8 +26,9 @@
     "url": "https://github.com/altayaydemir/react-mobile-devices/issues"
   },
   "peerDependencies": {
-    "react": ">=15.0",
-    "react-dom": ">=15.0"
+    "react": ">=16.0",
+    "react-dom": ">=16.0",
+    "prop-types": ">=15.0"
   },
   "devDependencies": {
     "autoprefixer": "6.5.1",
@@ -54,9 +55,10 @@
     "jest": "16.0.2",
     "node-sass": "3.10.1",
     "postcss-loader": "1.1.0",
-    "react": "15.3.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
     "react-addons-test-utils": "15.3.2",
-    "react-dom": "15.3.2",
+    "react-dom": "^16.2.0",
     "react-hot-loader": "3.0.0-beta.6",
     "rimraf": "2.5.4",
     "sass-loader": "4.0.2",

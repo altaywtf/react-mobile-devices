@@ -1,14 +1,9 @@
-// Core
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import cx from 'classnames';
 
 // UI
 import style from './style.scss';
-
-// PropTypes
-const propTypes = {
-  children: PropTypes.node,
-};
 
 const Nexus = ({ children }) => (
   <div className={cx('MarvelDevice', style.Device)}>
@@ -23,6 +18,8 @@ const Nexus = ({ children }) => (
   </div>
 );
 
-Nexus.propTypes = propTypes;
+Nexus.propTypes = {
+  children: PropTypes.node,
+};
 
 export default Nexus;
